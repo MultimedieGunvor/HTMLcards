@@ -1,0 +1,76 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+}
+.card{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid teal;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 5px;
+}
+.card-header{
+    color: rgb(35, 98, 109);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: teal 1px solid;
+    background-color: rgb(148, 235, 226);
+    padding: 5px 10px;
+}
+.card-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: rgb(230, 230, 230);
+
+}
+.material-icons{
+    font-size: 36px;
+    color:rgb(25, 160, 160);
+    margin-bottom: 5px;
+}
+.main-description{
+    color: teal;
+    font-size: 12px;
+    text-align: center;
+
+}
+/* id til særlige farver på lige rækker */
+#or-border{
+    border-color: steelblue;
+
+}
+#or-header{
+    background-color: rgb(196, 158, 196);
+    border-color: rgb(155, 90, 155);
+    color: rgb(80, 57, 80);
+}
+#or-color{
+    color: rgb(110, 50, 105);
+}
+#er-border{
+    border-color: rgb(211, 128, 50);
+}
+#er-header{
+    background-color: rgb(255, 142, 122);
+    border-color: tomato;
+    color: rgb(153, 52, 13);
+}
+#er-color{
+    color: tomato;
+}
